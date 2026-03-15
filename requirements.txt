@@ -1,0 +1,35 @@
+# Core (always needed)
+# No external packages required for the converter itself!
+
+# Optional — install only what your generated script uses:
+
+# HTTP requests
+requests>=2.31.0
+
+# Environment variables
+python-dotenv>=1.0.0
+
+# Scheduling
+schedule>=1.2.0
+
+# Slack
+slack-sdk>=3.27.0
+
+# OpenAI
+openai>=1.30.0
+
+# Anthropic
+anthropic>=0.28.0
+
+# Database
+psycopg2-binary>=2.9.9
+mysql-connector-python>=8.3.0
+
+# Airtable
+pyairtable>=2.3.0
+
+# Notion
+notion-client>=2.2.1
+
+# Web server (for Webhook trigger)
+flask>=3.0.0
